@@ -61,7 +61,7 @@ export default function Navigation() {
               className="p-1.5 sm:p-2 rounded-lg text-earth-green hover:text-burnt-orange hover:bg-nude/10 transition-all duration-200"
               aria-label="Toggle menu"
             >
-              {isMenuOpen ? <X size={18} className="sm:w-5 sm:h-5" /> : <Menu size={18} className="sm:w-5 sm:h-5" />}
+              {isMenuOpen ? <X size={24} className="sm:w-6 sm:h-6" /> : <Menu size={24} className="sm:w-6 sm:h-6" />}
             </button>
           </div>
         </div>
