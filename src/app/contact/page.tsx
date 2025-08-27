@@ -123,7 +123,7 @@ export default function Contact() {
                   Thank You!
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Your booking request has been submitted successfully. We'll get back to you within 24 hours to confirm your session.
+                  Your booking request has been submitted successfully. We&apos;ll get back to you within 24 hours to confirm your session.
                 </p>
               </div>
             ) : (
@@ -286,12 +286,12 @@ export default function Contact() {
                   <h2 className="font-heading font-bold text-3xl text-earth-green">
                     Get in Touch
                   </h2>
-                  <p className="text-gray-600">We're here to help you on your wellness journey</p>
+                  <p className="text-gray-600">We&apos;re here to help you on your wellness journey</p>
                 </div>
               </div>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Have questions about our services or want to learn more about the benefits of sauna and cold plunge therapy? 
-                We're here to help you on your wellness journey.
+                We&apos;re here to help you on your wellness journey.
               </p>
             </div>
 

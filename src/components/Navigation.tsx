@@ -1,13 +1,13 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+
 
   const navItems = [
     { name: 'Home', href: '/' },
@@ -17,14 +17,7 @@ export default function Navigation() {
     { name: 'Contact', href: '/contact' },
   ];
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 bg-nude shadow-sm h-16 sm:h-20 md:h-24 lg:h-32`}>

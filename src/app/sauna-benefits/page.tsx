@@ -138,7 +138,7 @@ export default function SaunaBenefits() {
           <div className="text-center mb-12">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Sparkles className="w-5 h-5 text-burnt-orange" />
-              <span className="text-burnt-orange text-sm font-medium tracking-[0.2em] uppercase">WHY IT'S AMAZING</span>
+              <span className="text-burnt-orange text-sm font-medium tracking-[0.2em] uppercase">WHY IT&apos;S AMAZING</span>
               <Sparkles className="w-5 h-5 text-burnt-orange" />
             </div>
             <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-earth-green mb-6">
@@ -151,7 +151,7 @@ export default function SaunaBenefits() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {benefits.map((benefit, index) => (
+            {benefits.map((benefit) => (
               <div
                 key={benefit.title}
                 className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group border border-nude/20 hover:-translate-y-2"
@@ -196,9 +196,9 @@ export default function SaunaBenefits() {
               <h3 className="font-heading font-bold text-xl text-earth-green mb-4 group-hover:text-burnt-orange transition-colors">
                 Arrive & Prepare
               </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Welcome to our wellness space. We'll guide you through preparation and ensure you're comfortable for your session.
-              </p>
+                              <p className="text-gray-600 leading-relaxed">
+                  Welcome to our wellness space. We&apos;ll guide you through preparation and ensure you&apos;re comfortable for your session.
+                </p>
             </div>
 
             <div className="text-center group">

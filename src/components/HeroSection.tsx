@@ -96,7 +96,7 @@ export default function HeroSection() {
                 <div className="w-8 h-1 bg-white/30 rounded-full"></div>
               </div>
               <p className="text-white/80 text-lg font-medium">
-                It's not luxury. It's necessary.
+                It&apos;s not luxury. It&apos;s necessary.
               </p>
             </div>
           </div>
@@ -381,10 +381,10 @@ export default function HeroSection() {
                   <Sparkles className="w-5 h-5 text-gray-600" />
                 </div>
                 <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-black mb-8">
-                  We bring primal recovery tools to a world that's forgotten how to feel.
+                  We bring primal recovery tools to a world that&apos;s forgotten how to feel.
                 </h2>
                 <p className="text-black text-lg md:text-xl leading-relaxed mb-8 max-w-3xl">
-                  ICE, FIRE, BREATH, MOVEMENT. It's not luxury. It's necessary.
+                  ICE, FIRE, BREATH, MOVEMENT. It&apos;s not luxury. It&apos;s necessary.
                 </p>
                 <p className="text-black/80 text-lg leading-relaxed mb-12">
                   Located in the heart of Bristol, HOTBOX Social is your destination for authentic heat and cold therapy experiences. 

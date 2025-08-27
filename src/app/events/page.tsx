@@ -133,7 +133,7 @@ export default function Events() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {upcomingEvents.map((event, index) => (
+            {upcomingEvents.map((event) => (
               <div
                 key={event.id}
                 className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 group overflow-hidden"

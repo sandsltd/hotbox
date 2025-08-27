@@ -140,7 +140,7 @@ export default function ColdPlungeBenefits() {
           <div className="text-center mb-12">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Sparkles className="w-5 h-5 text-earth-green" />
-              <span className="text-earth-green text-sm font-medium tracking-[0.2em] uppercase">WHY IT'S INCREDIBLE</span>
+              <span className="text-earth-green text-sm font-medium tracking-[0.2em] uppercase">WHY IT&apos;S INCREDIBLE</span>
               <Sparkles className="w-5 h-5 text-earth-green" />
             </div>
             <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-earth-green mb-6">
@@ -153,7 +153,7 @@ export default function ColdPlungeBenefits() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {benefits.map((benefit, index) => (
+            {benefits.map((benefit) => (
               <div
                 key={benefit.title}
                 className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group border border-nude/20 hover:-translate-y-2"
@@ -220,7 +220,7 @@ export default function ColdPlungeBenefits() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-earth-green mb-3 text-lg group-hover:text-burnt-orange transition-colors">Recovery Activation</h4>
-                    <p className="text-gray-600 leading-relaxed">Inflammation is reduced and the body's natural recovery processes are activated.</p>
+                    <p className="text-gray-600 leading-relaxed">Inflammation is reduced and the body&apos;s natural recovery processes are activated.</p>
                   </div>
                 </div>
               </div>
@@ -276,9 +276,9 @@ export default function ColdPlungeBenefits() {
               <h3 className="font-heading font-bold text-xl text-earth-green mb-4 group-hover:text-burnt-orange transition-colors">
                 Preparation
               </h3>
-              <p className="text-gray-600 leading-relaxed">
-                We'll guide you through proper preparation and ensure you're ready for the cold exposure experience.
-              </p>
+                              <p className="text-gray-600 leading-relaxed">
+                  We&apos;ll guide you through proper preparation and ensure you&apos;re ready for the cold exposure experience.
+                </p>
             </div>
 
             <div className="text-center group">
